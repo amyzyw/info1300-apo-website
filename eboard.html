@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>E-Board</title>
+
+    <link rel="stylesheet" type="text/css" href="styles/site.css" media="all" />
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <!--LOGO IMAGE: contains a link to the home page.-->
+            <a href="index.html">
+                <img class="logo" src=images/apo-logo-small.png alt="">
+                <!--Source: APO Website: http://www.apogamma.org/-->
+            </a>
+        </div>
+        <div id="wide-nav" class="wide-nav">
+            <div id="abt-dropdown" class="dropdown nav-item">
+                <p>About &#9660;</p>
+                <div id="abt-menu" class="dropdown-content hidden">
+                    <a href="eboard.html">Executive Board</a>
+                    <a href="families.html">Families</a>
+                    <a href="philanthropy.html">Philanthropy</a>
+                    <a href="partners.html">Our Partners</a>
+                </div>
+            </div>
+            <div class="nav-item">
+                <a href="recruitment.html">Recruitment</a>
+            </div>
+            <div id="alumni-dropdown" class="dropdown nav-item">
+                <p>Alumni &#9660;</p>
+                <div id="alumni-menu" class="dropdown-content hidden">
+                    <a href="alumni_spotlight.html">Alumni Spotlights</a>
+                    <a href="upcoming_event.html">Upcoming Events</a>
+                </div>
+            </div>
+            <div class="nav-item">
+                <a href="gallery.html">Gallery</a>
+            </div>
+        </div>
+        <!--Hamburger Icon-->
+        <div id="button-hamburger" class="hamburger">
+            <div id="bar1" class="inactive"> </div>
+            <div id="bar2" class="inactive"> </div>
+            <div id="bar3" class="inactive"> </div>
+        </div>
+
+        <div id="sidebar" class="side-bar hidden">
+            <!--Close sidebar button-->
+            <a id="button-close" class="button-close hidden">&times;</a>
+            <ul class="sidebar-nav">
+                <li><a href=#>About</a>
+                    <button id="about-button" class="hidden">+</button>
+                    <ul id="about-sub" class="hidden">
+                        <li><a href="eboard.html">Executive Board</a></li>
+                        <li><a href="families.html">Families</a></li>
+                        <li><a href="philanthropy.html">Philanthropy</a></li>
+                        <li><a href="partners.html">Our Partners</a></li>
+                    </ul>
+                </li>
+                <li><a href="recruitment.html">Recruitment</a></li>
+                <li><a href=#>Alumni</a>
+                    <button id="alum-button" class="hidden">+</button>
+                    <ul id="alum-sub" class="hidden">
+                        <li><a href="alumni_spotlight.html">Alumni Spotlights</a></li>
+                        <li><a href="upcoming_event.html">Upcoming Events</a></li>
+                    </ul>
+                </li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="hero-container hero-eboard">
+        <div class="hero-content">
+            <h1 class="hero-text">Executive Board Fall 2022</h1>
+        </div>
+    </div>
+    <main>
+
+        <h2 class="centered">Executive</h2>
+        <div class="container hidden"></div>
+        <div class="centered">
+            <div id="eb-yasmin" class="card">
+                <img src="images/eboard/yasmin-ballew.jpeg" alt="Yasmin Ballew for Card">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <h3>Yasmin Ballew</h3>
+                <h4>President</h4>
+                <a class="email" href="mailto:ykb2@cornell.edu"><img src="images/eboard/email-icon.png" alt="email icon"></a>
+                <!--Source: icons8 website: https://icons8.com/icons/set/email-->
+            </div>
+            <div id="m-eb-yasmin" class="eb-modal hidden">
+                <button id="cancel-eb-yasmin" class="modal">&times;</button>
+                <img src="images/eboard/yasmin-ballew.jpeg" alt="Yasmin Ballew Headshot for Modal">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <div class="eb-info">
+                    <h3>Yasmin Ballew</h3>
+                    <h4>President</h4>
+                    <p>Hi! I’m a senior in ILR from CA. I love service, kittens, and bubble tea. Please reach out 🙂</p>
+                    <a href="mailto:ykb2@cornell.edu">ykb2@cornell.edu</a>
+                </div>
+            </div>
+
+            <div id="eb-rachelw" class="card">
+                <img src="images/eboard/rachel-wu.jpeg" alt="Rachel Wu Headshot for Card">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <h3>Rachel Wu</h3>
+                <h4>Sergeant at Arms</h4>
+                <a class="email" href="mailto:rw477@cornell.edu"><img src="images/eboard/email-icon.png" alt="email icon"></a>
+                <!--Source: icons8 website: https://icons8.com/icons/set/email-->
+            </div>
+            <div id="m-eb-rachelw" class="eb-modal hidden">
+                <button id="cancel-eb-rachelw" class="modal">&times;</button>
+                <img src="images/eboard/rachel-wu.jpeg" alt="Rachel Wu Headshot for Modal">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <div class="eb-info">
+                    <h3>Rachel Wu</h3>
+                    <h4>Sergeant at Arms</h4>
+                    <p>I'm a junior studying biology with a minor in East Asian studies. I'm from Maryland but I spent most of my time in Taiwan.</p>
+                    <a href="mailto:rw477@cornell.edu">rw477@cornell.edu</a>
+                </div>
+            </div>
+
+            <div id="eb-kieran" class="card">
+                <img src="images/eboard/kieran-adams.jpeg" alt="Kieran Adams Headshot for Card">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <h3>Kieran Adams</h3>
+                <h4>Treasurer</h4>
+                <a class="email" href="mailto:kaa98@cornell.edu"><img src="images/eboard/email-icon.png" alt="email icon"></a>
+                <!--Source: icons8 website: https://icons8.com/icons/set/email-->
+            </div>
+            <div id="m-eb-kieran" class="eb-modal hidden">
+                <button id="cancel-eb-kieran" class="modal">&times;</button>
+                <img src="images/eboard/kieran-adams.jpeg" alt="Kieran Adams Headshot for Modal">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <div class="eb-info">
+                    <h3>Kieran Adams</h3>
+                    <h4>Treasurer</h4>
+                    <p>Hi! I’m Kieran! I’m a Sociology and History major from Medford, Massachusetts. I like mob movies and the incalculable wonders of nature.</p>
+                    <a href="mailto:kaa98@cornell.edu">kaa98@cornell.edu</a>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="centered">Membership</h2>
+        <div class="centered">
+            <div id="eb-bella" class="card">
+                <img src="images/eboard/bella-nevarez.png" alt="Bella Nevarez Headshot for Card">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <h3>Bella Nevarez</h3>
+                <h4>VP of membership</h4>
+                <a class="email" href="mailto:cen49@cornell.edu"><img src="images/eboard/email-icon.png" alt="email icon"></a>
+                <!--Source: icons8 website: https://icons8.com/icons/set/email-->
+            </div>
+            <div id="m-eb-bella" class="eb-modal hidden">
+                <button id="cancel-eb-bella" class="modal">&times;</button>
+                <img src="images/eboard/bella-nevarez.png" alt="Bella Nevarez Headshot for Modal">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <div class="eb-info">
+                    <h3>Bella Nevarez</h3>
+                    <h4>VP of Membership</h4>
+                    <p>Hi! I’m a senior Biological Sciences major from Dallas, TX. I enjoy Starbucks refreshers, binging Netflix shows, and hanging out a CTB.</p>
+                    <a href="mailto:cen49@cornell.edu">cen49@cornell.edu</a>
+                </div>
+            </div>
+
+            <div id="eb-calista" class="card">
+                <img src="images/eboard/calista-bordador.jpeg" alt="Calista Bordador Headshot for Card">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <h3>Calista Bordador</h3>
+                <h4>Diversity and Inclusion Chair</h4>
+                <a class="email" href="mailto:clb354@cornell.edu"><img src="images/eboard/email-icon.png" alt="email icon"></a>
+                <!--Source: icons8 website: https://icons8.com/icons/set/email-->
+            </div>
+            <div id="m-eb-calista" class="eb-modal hidden">
+                <button id="cancel-eb-calista" class="modal">&times;</button>
+                <img src="images/eboard/calista-bordador.jpeg" alt="Calista Bordador Headshot for Modal">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <div class="eb-info">
+                    <h3>Calista Bordador</h3>
+                    <h4>Diversity and Inclusion Chair</h4>
+                    <p>I'm a sophomore possibly majoring in Classics/Government from Vegas! I love Harry Potter, Star Wars, & Marvel and I can't wait to meet you!</p>
+                    <a href="mailto:clb354@cornell.edu">clb354@cornell.edu</a>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="centered">Service</h2>
+        <div class="centered">
+            <div id="eb-shreyas" class="card">
+                <img src="images/eboard/shreyas-prased.png" alt="Shreyas Prased Headshot for Card">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <h3>Shreyas Prased</h3>
+                <h4>VP of Service</h4>
+                <a class="email" href="mailto:sp839@cornell.edu"><img src="images/eboard/email-icon.png" alt="email icon"></a>
+                <!--Source: icons8 website: https://icons8.com/icons/set/email-->
+            </div>
+            <div id="m-eb-shreyas" class="eb-modal hidden">
+                <button id="cancel-eb-shreyas" class="modal">&times;</button>
+                <img src="images/eboard/shreyas-prased.png" alt="Shreyas Prased Headshot for Modal">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <div class="eb-info">
+                    <h3>Shreyas Prased</h3>
+                    <h4>VP of Service</h4>
+                    <p>I'm a Senior studying Biology and Society with minors in Human Development and Nutritional Sciences. I'm from Buffalo, NY.</p>
+                    <a href="mailto:sp839@cornell.edu">sp839@cornell.edu</a>
+                </div>
+            </div>
+
+            <div id="eb-ilana" class="card">
+                <img src="images/eboard/ilana-greenspan.jpeg" alt="Ilana Greenspan Headshot for Card">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <h3>Ilana Greenspan</h3>
+                <h4>Off-Campus Service Assistant</h4>
+                <a class="email" href="mailto:irg22@cornell.edu"><img src="images/eboard/email-icon.png" alt="email icon"></a>
+                <!--Source: icons8 website: https://icons8.com/icons/set/email-->
+            </div>
+            <div id="m-eb-ilana" class="eb-modal hidden">
+                <button id="cancel-eb-ilana" class="modal">&times;</button>
+                <img src="images/eboard/ilana-greenspan.jpeg" alt="Ilana Greenspan Headshot for Modal">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <div class="eb-info">
+                    <h3>Ilana Greenspan</h3>
+                    <h4>Off-Campus Service Assistant</h4>
+                    <p>Originally from Madison, Wisconsin, I am a junior studying Environment & Sustainability. My favorite ice-cream topping is cookie dough.</p>
+                    <a href="mailto:irg22@cornell.edu">irg22@cornell.edu</a>
+                </div>
+            </div>
+
+            <div id="eb-jackie" class="card">
+                <img src="images/eboard/jackie-kim.png" alt="Jackie Kim Headshot for Card">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <h3>Jackie Kim</h3>
+                <h4>Chair Chair</h4>
+                <a class="email" href="mailto:jsk422@cornell.edu"><img src="images/eboard/email-icon.png" alt="email icon"></a>
+                <!--Source: icons8 website: https://icons8.com/icons/set/email-->
+            </div>
+            <div id="m-eb-jackie" class="eb-modal hidden">
+                <button id="cancel-eb-jackie" class="modal">&times;</button>
+                <img src="images/eboard/jackie-kim.png" alt="Jackie Kim Headshot for Modal">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <div class="eb-info">
+                    <h3>Jackie Kim</h3>
+                    <h4>Chair Chair</h4>
+                    <p>I am a junior from Bergen County NJ! I am majoring in Biological Sciences and Philosophy, and a fun fact about me is that I own a blind hams.</p>
+                    <a href="mailto:jsk422@cornell.edu">jsk422@cornell.edu</a>
+                </div>
+            </div>
+
+            <div id="eb-jason" class="card">
+                <img src="images/eboard/jason-xiong.jpeg" alt="Jason Xiong Headshot for Card">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <h3>Jason Xiong</h3>
+                <h4>On-Campus Service Assistant</h4>
+                <a class="email" href="mailto:jx94@cornell.edu"><img src="images/eboard/email-icon.png" alt="email icon"></a>
+                <!--Source: icons8 website: https://icons8.com/icons/set/email-->
+            </div>
+            <div id="m-eb-jason" class="eb-modal hidden">
+                <button id="cancel-eb-jason" class="modal">&times;</button>
+                <img src="images/eboard/jason-xiong.jpeg" alt="Jason Xiong Headshot for Modal">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <div class="eb-info">
+                    <h3>Jason Xiong</h3>
+                    <h4>On-Campus Service Assistant</h4>
+                    <p>Hello, I'm a sophomore majoring in ILR from NYC. When I'm not crying about readings, you can find me binge-watching CBS competition shows.</p>
+                    <a href="mailto:jx94@cornell.edu">jx94@cornell.edu</a>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="centered">Communication</h2>
+        <div class="centered">
+            <div id="eb-summer" class="card">
+                <img src="images/eboard/summer-hardy.jpeg" alt="Summer Hardy Headshot for Card">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <h3>Summer Hardy</h3>
+                <h4>VP of Communication</h4>
+                <a class="email" href="mailto:sxh2@cornell.edu"><img src="images/eboard/email-icon.png" alt="email icon"></a>
+                <!--Source: icons8 website: https://icons8.com/icons/set/email-->
+            </div>
+            <div id="m-eb-summer" class="eb-modal hidden">
+                <button id="cancel-eb-summer" class="modal">&times;</button>
+                <img src="images/eboard/summer-hardy.jpeg" alt="Summer Hardy Headshot for Modal">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <div class="eb-info">
+                    <h3>Summer Hardy</h3>
+                    <h4>VP of Communication</h4>
+                    <a href="mailto:sxh2@cornell.edu">sxh2@cornell.edu</a>
+                </div>
+            </div>
+
+            <div id="eb-william" class="card">
+                <img src="images/eboard/william-bui.jpeg" alt="William Bui Headshot for Card">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <h3>William Bui</h3>
+                <h4>Chapter Relations Chair</h4>
+                <a class="email" href="mailto:wb248@cornell.edu"><img src="images/eboard/email-icon.png" alt="email icon"></a>
+                <!--Source: icons8 website: https://icons8.com/icons/set/email-->
+            </div>
+            <div id="m-eb-william" class="eb-modal hidden">
+                <button id="cancel-eb-william" class="modal">&times;</button>
+                <img src="images/eboard/william-bui.jpeg" alt="William Bui Headshot for Modal">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <div class="eb-info">
+                    <h3>William Bui</h3>
+                    <h4>Chapter Relations Chair</h4>
+                    <p>I'm William and I'm a senior studying PAM. I'm originally from New York. In my free time I like to hunt for UFOs. I hope to meet up with ET.</p>
+                    <a href="mailto:wb248@cornell.edu">wb248@cornell.edu</a>
+                </div>
+            </div>
+
+            <div id="eb-brian" class="card">
+                <img src="images/eboard/brian-walker.jpeg" alt="Brian Walker Headshot for Card">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <h3>Brian Walker</h3>
+                <h4>Chapter Relations Chair</h4>
+                <a class="email" href="mailto:bjw32@cornell.edu"><img src="images/eboard/email-icon.png" alt="email icon"></a>
+                <!--Source: icons8 website: https://icons8.com/icons/set/email-->
+            </div>
+            <div id="m-eb-brian" class="eb-modal hidden">
+                <button id="cancel-eb-brian" class="modal">&times;</button>
+                <img src="images/eboard/brian-walker.jpeg" alt="Brian Walker Headshot for Modal">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <div class="eb-info">
+                    <h3>Brian Walker</h3>
+                    <h4>Chapter Relations Chair</h4>
+                    <p>Hi! My name is Brian. I am a senior studying Human Biology, Health, and Society. I am from a small town in New Jersey.</p>
+                    <a href="mailto:bjw32@cornell.edu">bjw32@cornell.edu</a>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="centered">Fellowship</h2>
+        <div class="centered">
+            <div id="eb-julia" class="card">
+                <img src="images/eboard/julia-kohn.jpeg" alt="Julia Kohn Headshot for Card">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <h3>Julia Kohn</h3>
+                <h4>Fellowship Assistant</h4>
+                <a class="email" href="mailto:jpk246@cornell.edu"><img src="images/eboard/email-icon.png" alt="email icon"></a>
+                <!--Source: icons8 website: https://icons8.com/icons/set/email-->
+            </div>
+            <div id="m-eb-julia" class="eb-modal hidden">
+                <button id="cancel-eb-julia" class="modal">&times;</button>
+                <img src="images/eboard/julia-kohn.jpeg" alt="Julia Kohn Headshot for Modal">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <div class="eb-info">
+                    <h3>Julia Kohn</h3>
+                    <h4>Fellowship Assistant</h4>
+                    <p>Hi! I’m from NYC, I’m an urban planning major, and one fun fact about me is that I love Taylor Swift.</p>
+                    <a href="mailto:jpk246@cornell.edu">jpk246@cornell.edu</a>
+                </div>
+            </div>
+
+            <div id="eb-ava" class="card">
+                <img src="images/eboard/ava-johnson.jpeg" alt="Ava Johnson Headshot for Card">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <h3>Ava Johnson</h3>
+                <h4>Fellowship's Assistant</h4>
+                <a class="email" href="mailto:akj38@cornell.edu"><img src="images/eboard/email-icon.png" alt="email icon"></a>
+                <!--Source: icons8 website: https://icons8.com/icons/set/email-->
+            </div>
+            <div id="m-eb-ava" class="eb-modal hidden">
+                <button id="cancel-eb-ava" class="modal">&times;</button>
+                <img src="images/eboard/ava-johnson.jpeg" alt="Ava Johnson Headshot for Modal">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <div class="eb-info">
+                    <h3>Ava Johnson</h3>
+                    <h4>Fellowship's Assistant</h4>
+                    <p>Hi my name is Ava Johnson and I’m from outside of Albany NY. My major is Nutritional Sciences. I love the outdoors.</p>
+                    <a href="mailto:akj38@cornell.edu">akj38@cornell.edu</a>
+                </div>
+            </div>
+
+            <div id="eb-whitney" class="card">
+                <img src="images/eboard/whitney-dawson.jpeg" alt="Whitney Dawson Headshot for Card">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <h3>Whitney Dawson</h3>
+                <h4>Fellowship/Big Little Co-Assistant</h4>
+                <a class="email" href="mailto:wld33@cornell.edu"><img src="images/eboard/email-icon.png" alt="email icon"></a>
+                <!--Source: icons8 website: https://icons8.com/icons/set/email-->
+            </div>
+            <div id="m-eb-whitney" class="eb-modal hidden">
+                <button id="cancel-eb-whitney" class="modal">&times;</button>
+                <img src="images/eboard/whitney-dawson.jpeg" alt="Whitney Dawson Headshot for Modal">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <div class="eb-info">
+                    <h3>Whitney Dawson</h3>
+                    <h4>Fellowship/Big Little Co-Assistant</h4>
+                    <p>Hi! I’m Whitney and I’m a junior majoring in Government. I’m from Westchester, NY, and my favorite show is Money Heist.</p>
+                    <a href="mailto:wld33@cornell.edu">wld33@cornell.edu</a>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="centered">Pledge Team</h2>
+        <div class="centered">
+            <div id="eb-carly" class="card">
+                <img src="images/eboard/carly-hu.jpeg" alt="Carly Hu Headshot for Card">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <h3>Carly Hu</h3>
+                <h4>Leadership Co-Assistant</h4>
+                <a class="email" href="mailto:ch862@cornell.edu"><img src="images/eboard/email-icon.png" alt="email icon"></a>
+                <!--Source: icons8 website: https://icons8.com/icons/set/email-->
+            </div>
+            <div id="m-eb-carly" class="eb-modal hidden">
+                <button id="cancel-eb-carly" class="modal">&times;</button>
+                <img src="images/eboard/carly-hu.jpeg" alt="Carly Hu Headshot for Modal">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <div class="eb-info">
+                    <h3>Carly Hu</h3>
+                    <h4>Leadership Co-Assistant</h4>
+                    <p> I'm a junior studying Information Science and Sociology from Queens, NY. I love to bake desserts, paint, and be apart of APO!</p>
+                    <a href="mailto:ch862@cornell.edu">ch862@cornell.edu</a>
+                </div>
+            </div>
+
+            <div id="eb-ashely" class="card">
+                <img src="images/eboard/ashley-bigelow.jpeg" alt="Ashely Bigelow Headshot for Card">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <h3>Ashely Bigelow</h3>
+                <h4>Pledgemaster</h4>
+                <a class="email" href="mailto:arb395@cornell.edu"><img src="images/eboard/email-icon.png" alt="email icon"></a>
+                <!--Source: icons8 website: https://icons8.com/icons/set/email-->
+            </div>
+            <div id="m-eb-ashely" class="eb-modal hidden">
+                <button id="cancel-eb-ashely" class="modal">&times;</button>
+                <img src="images/eboard/ashley-bigelow.jpeg" alt="Ashely Bigelow Headshot for Modal">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <div class="eb-info">
+                    <h3>Ashely Bigelow</h3>
+                    <h4>Pledgemaster</h4>
+                    <p>I am a senior studying computer science, and I am from Rochester, NY. I'm so excited to welcome our new pledge class and get to know you all.</p>
+                    <a href="mailto:arb395@cornell.edu">arb395@cornell.edu</a>
+                </div>
+            </div>
+
+            <div id="eb-mike" class="card">
+                <img src="images/eboard/mike-bai.jpeg" alt="Mike Bai Headshot for Card">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <h3>Mike Bai</h3>
+                <h4>Admin Co-Assistant</h4>
+                <a class="email" href="mailto:myb7@cornell.edu"><img src="images/eboard/email-icon.png" alt="email icon"></a>
+                <!--Source: icons8 website: https://icons8.com/icons/set/email-->
+            </div>
+            <div id="m-eb-mike" class="eb-modal hidden">
+                <button id="cancel-eb-mike" class="modal">&times;</button>
+                <img src="images/eboard/mike-bai.jpeg" alt="Mike Bai Headshot for Modal">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <div class="eb-info">
+                    <h3>Mike Bai</h3>
+                    <h4>Admin Co-Assistant</h4>
+                    <p>Hi! I'm a junior studying Biometry & Statistics from suburban Philly. I love skiing, spicy foods, and making playlists!</p>
+                    <a href="mailto:myb7@cornell.edu">myb7@cornell.edu</a>
+                </div>
+            </div>
+
+            <div id="eb-pablo" class="card">
+                <img src="images/eboard/pablo-hashem.jpeg" alt="Pablo Hashem Headshot for Card">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <h3>Pablo Hashem</h3>
+                <h4>Sercive/PPG Co-Assistant</h4>
+                <a class="email" href="mailto:pih9@cornell.edu"><img src="images/eboard/email-icon.png" alt="email icon"></a>
+                <!--Source: icons8 website: https://icons8.com/icons/set/email-->
+            </div>
+            <div id="m-eb-pablo" class="eb-modal hidden">
+                <button id="cancel-eb-pablo" class="modal">&times;</button>
+                <img src="images/eboard/pablo-hashem.jpeg" alt="Pablo Hashem Headshot for Modal">
+                <!--Source: APO Website E-Board page: http://www.apogamma.org/eb/-->
+                <div class="eb-info">
+                    <h3>Pablo Hashem</h3>
+                    <h4>Sercive/PPG Co-Assistant</h4>
+                    <p>My name is Pablo Hashem, I am a junior Bioengineering major from Seaford, Long Island. I like to work in my vaccine research and development.</p>
+                    <a href="mailto:pih9@cornell.edu">pih9@cornell.edu</a>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <script src="scripts/jquery-3.6.1.js"></script>
+    <script src="scripts/sidebar-nav.js"></script>
+    <script src="scripts/eboard-modal.js"></script>
+    <script src="scripts/widenav-dropdown.js"></script>
+    <script src="scripts/hamburger-nav.js"></script>
+</body>
+
+</html>

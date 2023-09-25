@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,
+initial-scale=1" />
+
+        <title>Gallery</title>
+        <link rel="stylesheet" type="text/css" href="styles/site.css" media="all" />
+
+    </head>
+
+    <body>
+        <nav>
+            <div class="logo">
+                <!--LOGO IMAGE: contains a link to the home page.-->
+                <a href="index.html">
+                    <img class="logo" src=images/apo-logo-small.png alt="">
+                    <!--Source: APO Website: http://www.apogamma.org/-->
+                </a>
+            </div>
+            <div id="wide-nav" class="wide-nav">
+                <div id="abt-dropdown" class="dropdown nav-item">
+                    <p>About &#9660;</p>
+                    <div id="abt-menu" class="dropdown-content hidden">
+                        <a href="eboard.html">Executive Board</a>
+                        <a href="families.html">Families</a>
+                        <a href="philanthropy.html">Philanthropy</a>
+                        <a href="partners.html">Our Partners</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <a href="recruitment.html">Recruitment</a>
+                </div>
+                <div id="alumni-dropdown" class="dropdown nav-item">
+                    <p>Alumni &#9660;</p>
+                    <div id="alumni-menu" class="dropdown-content hidden">
+                        <a href="alumni_spotlight.html">Alumni Spotlights</a>
+                        <a href="upcoming_event.html">Upcoming Events</a>
+                    </div>
+                </div>
+                <div class="nav-item">
+                    <a href="gallery.html">Gallery</a>
+                </div>
+            </div>
+            <!--Hamburger Icon-->
+            <div id="button-hamburger" class="hamburger">
+                <div id="bar1" class="inactive"> </div>
+                <div id="bar2" class="inactive"> </div>
+                <div id="bar3" class="inactive"> </div>
+            </div>
+
+            <div id="sidebar" class="side-bar hidden">
+                <!--Close sidebar button-->
+                <a id="button-close" class="button-close hidden">&times;</a>
+                <ul class="sidebar-nav">
+                    <li><a href=#>About</a>
+                        <button id="about-button" class="hidden">+</button>
+                        <ul id="about-sub" class="hidden">
+                            <li><a href="eboard.html">Executive Board</a></li>
+                            <li><a href="families.html">Families</a></li>
+                            <li><a href="philanthropy.html">Philanthropy</a></li>
+                            <li><a href="partners.html">Our Partners</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="recruitment.html">Recruitment</a></li>
+                    <li><a href=#>Alumni</a>
+                        <button id="alum-button" class="hidden">+</button>
+                        <ul id="alum-sub" class="hidden">
+                            <li><a href="alumni_spotlight.html">Alumni Spotlights</a></li>
+                            <li><a href="upcoming_event.html">Upcoming Events</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="hero-container hero-gallery">
+            <div class="hero-content">
+                <h1 class="hero-text">Gallery</h1>
+            </div>
+        </div>
+        <main>
+            <p>Check out our Instagram <a href="https://www.instagram.com/apogamma/related_profiles/">@apogamma</a> for more pictures and updates about our events!</p>
+
+            <div class="gallery">
+                <div class="gallery-column">
+                    <!--Source: APO Website-->
+                    <img src="images/gallery/gallery1.png" alt="">
+
+                    <!--Source: APO Website-->
+                    <img src="images/gallery/gallery2.jpeg" alt="">
+
+                    <!--Source: APO Website-->
+                    <img src="images/gallery/gallery3.jpeg" alt="">
+
+                    <!--Source: APO Website-->
+                    <img src="images/gallery/gallery4.jpeg" alt="">
+
+                    <!--Source: APO Website-->
+                    <img src="images/gallery/gallery5.jpeg" alt="">
+                </div>
+                <div class="gallery-column">
+                    <!--Source: APO Website-->
+                    <img src="images/gallery/gallery6.jpeg" alt="">
+
+                    <!--Source: APO Website-->
+                    <img src="images/gallery/gallery7.jpeg" alt="">
+
+                    <!--Source: APO Website-->
+                    <img src="images/gallery/gallery8.jpeg" alt="">
+
+                    <!--Source: APO Website-->
+                    <img src="images/gallery/gallery9.jpeg" alt="">
+
+                    <!--Source: APO Website-->
+                    <img src="images/gallery/gallery10.jpeg" alt="">
+                </div>
+                <div class="gallery-column">
+                    <!--Source: APO Website-->
+                    <img src="images/gallery/gallery11.jpeg" alt="">
+
+                    <!--Source: APO Website-->
+                    <img src="images/gallery/gallery12.jpeg" alt="">
+
+                    <!--Source: APO Website-->
+                    <img src="images/gallery/gallery13.jpeg" alt="">
+
+                    <!--Source: APO Website-->
+                    <img src="images/gallery/gallery14.jpeg" alt="">
+
+                    <!--Source: APO Website-->
+                    <img src="images/gallery/gallery15.jpeg" alt="">
+
+                    <!--Source: APO Website-->
+                    <img src="images/gallery/gallery16.jpeg" alt="">
+                </div>
+            </div>
+        </main>
+        <script src="scripts/jquery-3.6.1.js"></script>
+        <script src="scripts/sidebar-nav.js"></script>
+        <script src="scripts/widenav-dropdown.js"></script>
+        <script src="scripts/hamburger-nav.js"></script>
+    </body>
+</html>
